@@ -1,0 +1,52 @@
+h1 {
+	size: 36px;
+	font-family: "Kaushan Script";
+	margin: 0;
+}
+
+h2 {
+	size: 24px;
+	font-family: "Times New Roman";
+	margin: 0;
+}
+
+body {
+	margin:0;
+	font-family: Arial;
+	size: 14px;
+}
+
+#cabecalho {
+	background-color:#6175f0;
+	color: white;
+	background-color:#6175f0;
+	padding: 20px 0px 13px 34px;
+}
+
+#verdade img {
+	float:left;
+	margin-right:13px;
+}
+
+#verdade h2 {
+	size: 24px;
+	padding-top: 13px;
+}
+
+#hoje {
+	float: right;
+	width: 405px;
+	background-color: #f8cef7;
+}
+
+#hoje {
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff56fb;
+}
+
+#hoje img {
+	height: 112px;
+	width: 112px;	
+}
