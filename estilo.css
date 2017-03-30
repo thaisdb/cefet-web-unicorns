@@ -4,10 +4,13 @@ h1 {
 	margin: 0;
 }
 
-h2 {
+h2, h3{
 	size: 24px;
 	font-family: "Times New Roman";
 	margin: 0;
+    font-weight: normal;
+    padding-bottom: 13px;
+    padding-top: 20px;
 }
 
 body {
@@ -20,7 +23,11 @@ body {
 	background-color:#6175f0;
 	color: white;
 	background-color:#6175f0;
-	padding: 20px 0px 13px 34px;
+	padding: 20px 0px 0px 34px;
+}
+
+#cabecalho h2{
+    font-weight: bold;
 }
 
 #verdade img {
@@ -28,25 +35,50 @@ body {
 	margin-right:13px;
 }
 
-#verdade h2 {
-	size: 24px;
-	padding-top: 13px;
-}
 
 #hoje {
 	float: right;
 	width: 405px;
 	background-color: #f8cef7;
-}
-
-#hoje {
 	text-align: center;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #ff56fb;
+    margin: 25px;
+    padding: 20px 35px 30px 35px;
+    float: right;
+}
+
+#hoje p, #musica p {
+    margin: 0px;
 }
 
 #hoje img {
 	height: 112px;
 	width: 112px;	
+}
+
+h3{
+    size: 18px;
+    margin: 15px;
+}
+
+#musica {
+    clear: left;
+    padding:0px;
+}
+
+#musica p, h2{
+    padding-left: 12px;
+    white-space:pre-line;
+}
+
+#musica p:nth-of-type(2n) {
+    padding-left: 46px;
+}
+
+.destacado {
+    background-color: #c4caf3;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
