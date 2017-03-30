@@ -35,11 +35,15 @@ body {
 	margin-right:13px;
 }
 
+.referencia {
+    font-style: italic;
+}
 
 #hoje {
 	float: right;
 	width: 405px;
-	background-color: #f8cef7;
+	box-sizing: border-box;
+    background-color: #f8cef7;
 	text-align: center;
 	border-width: 1px;
 	border-style: solid;
@@ -48,6 +52,7 @@ body {
     padding: 20px 35px 30px 35px;
     float: right;
 }
+
 
 #hoje p, #musica p {
     margin: 0px;
